@@ -25,10 +25,11 @@ public:
 		y = p.y;
 
 	}
-	void distance(float point1, float point2)
+	float distance(float point1, float point2)
 	{
 		float distance = sqrt(pow((x - point1), 2) + pow((y - point2),2));
-		cout << "the distance between p1 and p2 is " << distance << endl;
+		
+		return distance;
 
 	}
 	string toString()

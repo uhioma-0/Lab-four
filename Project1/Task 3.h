@@ -4,33 +4,23 @@
 #include <math.h>
 class Polyline
 {
-	vector* arrLines;
-	vector* pointPtr;
-	Polyline(int maxLens)
-	{
-		arrLines = new vector[maxLens];
-		for (int i = 0; i < maxLens; i++)
-		{
-			pointPtr->aPoint;
-			arrLines[i] = *pointPtr;
-	}
-	~Polyline()
-	{
-
-	}
-	void add_Point(vector *arr, vector p)
-	
-	void Print()
-	{
-	}
-	float total_length()
-	{}
+public:
+	vector*arrLines;
+	void add_Point(vector p);
+	void print();
+	float total_length();
 	int get_size();
-	bool is_empty()
-	{}
-	float delete_arr(Point2D *arr,int maxLens)
-	{
-		delete arr[};
+	bool is_empty();
+	void delete_arr(int maxLens);
+	float get_element(int index);
 
-	float get_element(vector* arr, int index);
+	Polyline()
+	{
+		vector pFinal;
+		pFinal.aPoint.x = -1;//to indicate this is the end
+		pFinal.aPoint.y = -1;
+		int maxLens = 4;
+		arrLines = new vector [maxLens+1];//the end is indeicated by negative cordination
+		arrLines[maxLens + 1] = pFinal;
+	}
 };
