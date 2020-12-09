@@ -84,7 +84,7 @@ float Polyline::get_element(int index)
 {
 return (((arrLines[index])).aPoint.x, ((arrLines[index])).aPoint.y);
 }
-int main()
+/*int main()
 {
 	vector p1;
 	p1.aPoint.x = 5;
@@ -105,4 +105,4 @@ int main()
 
 
 
-}
+}*/
