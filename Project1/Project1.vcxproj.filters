@@ -21,10 +21,10 @@
     <ClCompile Include="Task 2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Task 3.cpp">
+    <ClCompile Include="Task4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Task4.cpp">
+    <ClCompile Include="Task3_revised.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClInclude Include="Task 2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Task 3.h">
+    <ClInclude Include="Task4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Task4.h">
+    <ClInclude Include="Task3_revised.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

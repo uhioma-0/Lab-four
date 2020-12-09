@@ -27,10 +27,10 @@ using namespace std;
 			cout << "{" << aCard[0] << "-" << aCard[1] << "}" << endl;
 	}
 
-int main()
+/*int main()
 {
 	CardDeck DollarDeck;
 	for (int i = 0;i < 55;i++)
 		DollarDeck.ArrayDeck[i].print();
 
-}
+}*/
