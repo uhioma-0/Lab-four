@@ -11,9 +11,9 @@ public:
 	float y;
 
 	Point2D()
-	{/*
+	{
 		x = NULL;
-		y = NULL;*/
+		y = NULL;
 	}
 	Point2D(float a, float b)
 	{
@@ -58,6 +58,12 @@ public:
 			return true;
 		else
 			return false;
+	}
+	void remove()
+	{
+		Point2D NullPoint;
+		x= NullPoint.x;
+		y = NullPoint.y;
 	}
 };
 class vector
