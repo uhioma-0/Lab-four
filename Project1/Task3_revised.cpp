@@ -32,7 +32,7 @@ float Polyline::total_length()
 	{
 		for (int i = 0;i < nPoints-1;i++)
 			{
-				length += length + (arrLines[i].distance((arrLines[i + 1].x), (arrLines[i + 1].y)));
+				length +=  (arrLines[i].distance((arrLines[i + 1].x), (arrLines[i + 1].y)));
 			}
 		return length;
 	}
